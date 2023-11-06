@@ -1,6 +1,5 @@
 .header__background {
   height: 12.5rem;
-
   background: linear-gradient(to right, #574ae8 0%, #3ea1db 100%);
 }
 
@@ -11,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-bottom: 41px;
+  margin-bottom: 2.562rem;
 }
 .logo,
 .link {
@@ -25,17 +24,17 @@
   background-image: url("../../assests/Vector.png");
   background-size: cover;
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem;
+  height: 0.9375rem;
   position: absolute;
-  left: 9px;
+  left: 0.5625rem;
   top: 50%;
   transform: translateY(-50%);
 }
 .header__searche input {
-  width: 374px;
-  height: 40px;
-  padding-left: 30px;
+  width: 23.375rem;
+  height: 2.5rem;
+  padding-left: 1.875rem;
   border-radius: 5px;
   box-sizing: border-box;
   border: none;
