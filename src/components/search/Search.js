@@ -1,6 +1,14 @@
+/*Import hooks */
+import { useState } from "react";
+
+/*Import CSS */
 import "./Search.css";
 import "../../fonts.css";
+
 const Search = () => {
+  /*bar search */
+  const [search, setSearch] = useState("");
+  console.log(search);
   return (
     <header className="header__background">
       <div className="container">
@@ -12,7 +20,14 @@ const Search = () => {
         </nav>
         <form className="header__searche">
           <span className="fa fa-user"></span>
-          <input type="text" name="search" placeholder="Pesquisa no blog" />
+          <input
+            type="text"
+            name="search"
+            placeholder="Pesquisa no blog"
+            onChange={(event) => {
+              setSearch(event.target.value);
+            }}
+          />
         </form>
       </div>
     </header>
