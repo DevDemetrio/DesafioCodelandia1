@@ -1,19 +1,18 @@
 import "./Comments.css";
 
-const Comments = () => {
+const Comments = (props) => {
   return (
-    <article className="comment__container">
+    <aside className="comment__container">
       <header>
-        <span className="data">data</span>
-        <span className="icon">icone</span>
+        <div>
+          <span className="data">{props.data}</span>
+          <span className="icon">icone</span>
+        </div>
+        <h2>{props.titulo}</h2>
       </header>
-      <h1>Titulo comentário</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-        vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus vel
-        diam fringilla, eu ullamcorper ex iaculis.
-      </p>
-    </article>
+
+      <p>{props.texto}</p>
+    </aside>
   );
 };
 

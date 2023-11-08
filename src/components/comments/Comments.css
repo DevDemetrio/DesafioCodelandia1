@@ -8,22 +8,23 @@
   box-sizing: border-box;
 }
 
-.comment__container header {
+.comment__container header div {
   display: flex;
   justify-content: space-between;
 }
-.comment__container span {
+.comment__container div span {
   font-family: "Lexend Deca";
   font-size: 14px;
   font-weight: 400;
   line-height: 17.5px;
 }
 
-.comment__container h1 {
+.comment__container header h2 {
   font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 18px;
   line-height: 22.5px;
+  text-align: center;
 }
 
 .comment__container p {
