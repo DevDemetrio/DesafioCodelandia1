@@ -1,9 +1,12 @@
 .header__background {
+  width: 100%;
   height: 12.5rem;
   background: linear-gradient(to right, #574ae8 0%, #3ea1db 100%);
 }
 
 .container {
+  max-width: 700px;
+  margin: 0 auto 0 auto;
   padding: 3rem 1.25rem 3rem 1.25rem;
 }
 .header__navegation ul {
@@ -32,11 +35,17 @@
   transform: translateY(-50%);
 }
 .header__searche input {
-  width: 23.375rem;
+  width: 100%;
+  max-width: 900px;
   height: 2.5rem;
   padding-left: 1.875rem;
   border-radius: 5px;
   box-sizing: border-box;
   border: none;
   background-color: rgba(255, 255, 255, 0.3);
+}
+.header__searche input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 14px;
 }
