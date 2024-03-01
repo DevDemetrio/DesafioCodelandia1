@@ -11,6 +11,9 @@ Na parte visual, o projeto é **responsivo** e conta com boas práticas de **HTM
 | HTML        |
 | CSS         |
 
+https://github.com/DevDemetrio/DesafioCodelandia1/assets/81098797/d9b03211-c334-4ebe-949e-26e2abb9bd7c
+
 
 ![codelandia1 1](https://github.com/DevDemetrio/DesafioCodelandia1/assets/81098797/3b4f6dfe-86fd-4207-a791-9546120cf5af)
 ![codelandia1 2](https://github.com/DevDemetrio/DesafioCodelandia1/assets/81098797/41fc1e7d-c6e5-4924-a7c6-cc0e0858aff1)
+
