@@ -4,6 +4,7 @@ const Comments = (props) => {
   return (
     <aside>
       <div className="comment__container">
+        <div className="comment">
         <header>
           <div>
             <span className="data">{props.data}</span>
@@ -12,6 +13,7 @@ const Comments = (props) => {
           <h2>{props.titulo}</h2>
         </header>
         <p>{props.texto}</p>
+        </div>
       </div>
     </aside>
   );

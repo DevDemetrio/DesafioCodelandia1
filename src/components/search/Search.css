@@ -1,12 +1,12 @@
 .header__background {
-  width: 100%;
-  height: 12.5rem;
   background: linear-gradient(to right, #574ae8 0%, #3ea1db 100%);
 }
 
 .container {
   max-width: 700px;
   margin: 0 auto 0 auto;
+  width: 100%;
+  height: 12.5rem;
   padding: 3rem 1.25rem 3rem 1.25rem;
 }
 .header__navegation ul {
