@@ -5,13 +5,27 @@ div,
 ul,
 li,
 form,
-button {
+aside,
+form,
+input,
+span,
+button,
+noscript {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #f3f5f7;
 }
-
